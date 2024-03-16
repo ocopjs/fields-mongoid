@@ -1,0 +1,44 @@
+{
+  "name": "@ocopjs/fields-mongoid",
+  "description": "OcopJS MongoId Field Type",
+  "version": "1.0.0",
+  "author": "ocopjs",
+  "license": "Apache-2.0",
+  "homepage": "https://ocopee.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ocopjs/fields-mongoid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ocopjs/fields-mongoid/issues"
+  },
+  "main": "./dist/index.js",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --write \"**/*.{ts,tsx,md,js}\""
+  },
+  "dependencies": {
+    "@arch-ui/input": "^0.1.14",
+    "@babel/runtime": "^7.14.6",
+    "@ocopjs/adapter-mongoose": "^1.0.1",
+    "@ocopjs/fields": "^1.0.3",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "prettier": "^3.2.5",
+    "semantic-release": "^23.0.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
