@@ -16,6 +16,7 @@
     "url": "https://github.com/ocopjs/fields-mongoid/issues"
   },
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "engines": {
     "node": "16"
   },
@@ -27,7 +28,7 @@
     "@arch-ui/input": "^0.1.14",
     "@babel/runtime": "^7.14.6",
     "@ocopjs/adapter-mongoose": "^1.0.1",
-    "@ocopjs/fields": "^1.0.3",
+    "@ocopjs/fields": "^1.0.4",
     "react": "^17.0.2"
   },
   "devDependencies": {
