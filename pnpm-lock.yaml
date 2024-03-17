@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.0.1
     version: 1.0.1
   '@ocopjs/fields':
-    specifier: ^1.0.4
-    version: 1.0.4(@types/react@18.2.66)
+    specifier: ^1.0.5
+    version: 1.0.5(@types/react@18.2.66)
   react:
     specifier: ^17.0.2
     version: 17.0.2
@@ -987,8 +987,8 @@ packages:
     engines: {node: '16'}
     dev: false
 
-  /@ocopjs/fields@1.0.4(@types/react@18.2.66):
-    resolution: {integrity: sha512-e2tbduhsNblOs950Of4au23cPAgGxB5nncHxypKfkWNCTRZuK8S2zehFWzTDCXEfCXMCV+BzlTC8JpQDxgsOdA==}
+  /@ocopjs/fields@1.0.5(@types/react@18.2.66):
+    resolution: {integrity: sha512-7GoWyr/A1E5GMvWv6FhkF1c0VFz/vFekOC+bNBIKONO0+SnPhKZNTGUhx//GRmUw7+cmzPZCujdvto/mSxn+Zg==}
     engines: {node: '16'}
     dependencies:
       '@apollo/client': 3.9.7(@types/react@18.2.66)(graphql@15.8.0)(react-dom@17.0.2)(react@17.0.2)
