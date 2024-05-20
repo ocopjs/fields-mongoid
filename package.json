@@ -1,7 +1,7 @@
 {
   "name": "@ocopjs/fields-mongoid",
   "description": "OcopJS MongoId Field Type",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ocopjs",
   "license": "Apache-2.0",
   "homepage": "https://ocopee.com",
